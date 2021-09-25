@@ -42,15 +42,15 @@ select, textarea {
   width: 95vw;
   height: 90vh;
   grid-template-columns: 30% 70%;
-  grid-template-rows: 3% 94% 1%;
+  grid-template-rows: 25% 74% 1%;
   gap: 1% 1% 1%;
   grid-template-areas:
-    "header header"
     "left-side right-side"
+    "instructions instructions"
     "footer footer";
 }
 
-.header { grid-area: header; }
+.instructions { grid-area: instructions; }
 .left-side { grid-area: left-side; }
 .right-side { grid-area: right-side; }
 .footer { grid-area: footer; }
