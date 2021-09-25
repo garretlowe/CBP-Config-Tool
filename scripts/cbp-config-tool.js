@@ -84,8 +84,7 @@ dlConfigButton.onclick = function () {
 		}
 	}
 	let downloadElement = document.createElement('a');
-	downloadElement.setAttribute('href', 'data:text/plain; charset=utf-8,' + 
-								 encodeURIComponent(configString));
+	downloadElement.setAttribute('href', 'data:text/plain; charset=utf-8,' + encodeURIComponent(configString));
 	downloadElement.setAttribute('download', 'cbp.ini');
 	downloadElement.style.display = 'none';
 	document.body.appendChild(downloadElement);
