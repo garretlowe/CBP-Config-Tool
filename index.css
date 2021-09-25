@@ -1,0 +1,57 @@
+* {
+  font-family: sans-serif;
+}
+
+html, body {
+  height: 95%;
+  width: 95%;
+  background: #131516;
+  color: #d8d4cf;
+}
+
+footer {
+	text-align:right;
+	font-weight: bold;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: green;
+}
+
+select, textarea {
+	background-color: #181a1b;
+	border-color: #736b5e;
+	color: #e8e6e3;
+}
+
+
+.number-box {
+	width: 45px;
+}
+
+.slider {
+	cursor: pointer;
+}
+
+.grid-container {
+  display: grid;
+  width: 95vw;
+  height: 90vh;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 3% 94% 1%;
+  gap: 1% 1% 1%;
+  grid-template-areas:
+    "header header"
+    "left-side right-side"
+    "footer footer";
+}
+
+.header { grid-area: header; }
+.left-side { grid-area: left-side; }
+.right-side { grid-area: right-side; }
+.footer { grid-area: footer; }
+
