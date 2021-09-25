@@ -13,9 +13,9 @@ The tool makes the assumption that both configuration file inputs have matching 
 [Attach]
 LButtFat_skin=Butt
 ```
-Then the second configuration file should have `LButtFat_skin` set to the same value, `Butt`. This was done to simplify the creation of the tool and may be changed in the future, but as of know, this is how it works.
+Then the second configuration file should have `LButtFat_skin` set to the same value, `Butt`. This was done to simplify the creation of the tool and may be changed in the future, but as of now, this is how it works.
 
-I'll also warn you that the tool will not preserve any comments (lines starting with ";") from the input configuration files. This is again to simplify creation but will almost definitely not be changed in the future as preserving comment placement between two files sounds like a headache and you probably don't even want to do that.
+I'll also warn you that the tool will not preserve any comments (lines starting with ";") from the input configuration files. This is, again, to simplify creation but will almost definitely not be changed in the future as preserving comment placement between two files sounds like a headache and you probably don't even want to do that.
 
 ## Instructions
 
